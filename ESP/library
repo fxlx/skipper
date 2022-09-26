@@ -67,7 +67,8 @@ if not isfile("ESP/assets/fornite.oh") then
 end
 local Images = {
     Among = readfile("ESP/assets/among.oh"),
-    Fornite = readfile("ESP/assets/fornite.oh"),
+    ["Saul Goodman"] = readfile("ESP/assets/saul_goodman.oh"),
+    ["Fortnite"] = readfile("ESP/assets/fornite.oh")
 }
 
 local ESP; ESP = {
